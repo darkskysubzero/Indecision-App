@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+html {
+	font-size: 62.5%; //make 10px the base
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: $m-size;
+	background-color: $dark-blue;
+}
+button {
+	cursor: pointer;
+}
+button:disabled {
+	cursor: pointer;
+}
+
+ol {
+	padding: 0;
+}

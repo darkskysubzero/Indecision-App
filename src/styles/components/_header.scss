@@ -1,0 +1,16 @@
+.header {
+	background: $off-black;
+	margin-bottom: $x-size;
+	padding: $m-size 0;
+	color: #fff;
+
+	h1 {
+		font-size: $l-size;
+		margin: 0;
+	}
+	h2 {
+		color: $off-white;
+		font-size: $m-size;
+		font-weight: 500;
+	}
+}

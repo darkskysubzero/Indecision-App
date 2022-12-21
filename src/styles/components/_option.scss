@@ -1,0 +1,16 @@
+.option {
+	display: flex;
+	justify-content: space-between;
+	padding: $l-size $m-size;
+	border-bottom: 1px solid lighten($light-blue, 10%);
+	color: $off-white;
+	span {
+		margin-right: 1rem;
+		color: #fff;
+		font-weight: bolder;
+	}
+	p {
+		word-break: break-all;
+		max-width: 80%;
+	}
+}
